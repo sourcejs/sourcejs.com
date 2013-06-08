@@ -136,14 +136,6 @@
     background-image: url(/user/i/promo/header_bg_x2.png);
   }
 }
-@media all and (max-width: 990px) {
-  .pro_header:before {
-    background-repeat: repeat;
-    background-position: -1px 0;
-    background-image: repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 25px), repeating-linear-gradient(150deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 25px), repeating-linear-gradient(30deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 25px);
-    background-size: 100px 58px;
-  }
-}
 .pro_header:after {
   content: '';
   position: absolute;
@@ -375,29 +367,38 @@
 /* /How it works */
 /* /Project
 ---------------------------------------------------------------------------------- */
-/* Mobile version
--------------------------------------------------- */
-/* 990px */
+.pro {
+  /* Mobile version
+    -------------------------------------------------- */
+
+  /* 990px */
+
+  /* 360px */
+
+}
 @media all and (max-width: 990px) {
-  .source_col-main {
+  .pro .source_col-main {
     padding-left: 0;
     padding-right: 0;
   }
-  .source_header {
+  .pro .source_header {
     margin-right: 0;
     margin-left: 0;
     width: 100%;
     min-width: 100%;
   }
-  .source_header_nav_i {
+  .pro .source_header_nav_i {
     margin-left: 10px;
   }
-  .source_container {
+  .pro .source_search {
+    display: none;
+  }
+  .pro .source_container {
     width: 100%;
     min-width: 320px;
     padding: 50px 15px 270px;
   }
-  .pro_fork {
+  .pro .pro_fork {
     top: 42px;
     left: 15px;
     width: 70px;
@@ -409,83 +410,80 @@
     -o-transform: scale(0.8);
     transform: scale(0.8);
   }
-  .pro_features {
+  .pro .pro_features {
     padding: 15px 0 25px;
   }
-  .pro_title_main-tx {
+  .pro .pro_title_main-tx {
     font-size: 57.4px;
   }
-  .pro_title_status {
+  .pro .pro_title_status {
     font-size: 8.4px;
   }
-  .pro_slogan {
+  .pro .pro_slogan {
     font-size: 21px;
   }
-  .pro_h2 {
+  .pro .pro_h2 {
     font-size: 36.4px;
-    margin: 0;
   }
-  .pro_descr {
+  .pro .pro_descr {
     width: 90%;
     font-size: 14px;
   }
-  .pro_download {
+  .pro .pro_download {
     margin-top: 4%;
   }
-  .pro_features-list_i {
-    width: 360px;
+  .pro .pro_features-list_i {
+    width: 100%;
+    max-width: 360px;
     padding-bottom: 3%;
   }
-  .pro_features-list_tx {
+  .pro .pro_features-list_tx {
     font-size: 14px;
   }
-  .pro_how-list_i {
-    width: 360px;
+  .pro .pro_how-list_i {
+    width: 100%;
+    max-width: 360px;
     margin-bottom: 60px;
   }
-  .source_footer {
+  .pro .source_footer {
     padding: 10px 0;
   }
-  .source_footer .source_col-main {
+  .pro .source_footer .source_col-main {
     font-size: 0;
     padding: 0 10px;
   }
-  .source_ul {
+  .pro .source_ul {
     font-size: 12px;
   }
-  .source_col {
+  .pro .source_col {
     padding-left: 0;
     padding-right: 0;
   }
-  .source_col:first-child {
+  .pro .source_col:first-child {
     padding: 0;
   }
-  .pro_header-soc {
+  .pro .source_col__23 {
+    width: auto;
+  }
+  .pro .pro_header-soc {
     display: block;
     position: static;
     margin-top: 10px;
   }
-  .pro_how_more {
+  .pro .pro_how_more {
     margin-top: 0;
   }
 }
-/* 360px */
 @media all and (max-width: 360px) {
-  .source_container {
+  .pro .source_container {
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 0;
   }
-  .source_search {
-    display: none;
-  }
-  .pro_features-list_i {
-    width: 320px;
-  }
-  .pro_how-list_i {
-    width: 320px;
+  .pro .pro_how-list_i {
     margin-bottom: 40px;
   }
-  .pro_fork {
+  .pro .pro_fork {
     top: 37px;
     left: 5px;
     -webkit-transform: scale(0.65);
@@ -493,6 +491,20 @@
     -ms-transform: scale(0.65);
     -o-transform: scale(0.65);
     transform: scale(0.65);
+  }
+  .pro .pro_how-list_ic.__spec {
+    width: 200px;
+  }
+  .pro .source_footer {
+    position: relative;
+    margin: 0 -15px;
+    text-align: center;
+  }
+  .pro .source_footer .source_col-main {
+    padding: 0 20px;
+  }
+  .pro .source_footer .source_col {
+    width: 100%;
   }
 }
 /* /Mobile version */

@@ -12,7 +12,7 @@
 @media-small: ~'all and (max-width: 990px)';
 @media-big: ~'all and (min-width: 990px)';
 
-//.pro {}
+//.pro {} //on body
 
 /* /Reset
 ---------------------------------------------------------------------------------- */
@@ -182,15 +182,15 @@
         background-size: 100%;
 
         @media @media-retina {background-image: url(/user/i/promo/header_bg_x2.png); }
-        @media @media-small {
-            background-repeat: repeat;
-            background-position: -1px 0;
-            background-image:
-            repeating-linear-gradient(90deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 25px),
-            repeating-linear-gradient(150deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 25px),
-            repeating-linear-gradient(30deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 25px);
-            background-size: 100px 58px;
-            }
+//        @media @media-small {
+//            background-repeat: repeat;
+//            background-position: -1px 0;
+//            background-image:
+//            repeating-linear-gradient(90deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 25px),
+//            repeating-linear-gradient(150deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 25px),
+//            repeating-linear-gradient(30deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 25px);
+//            background-size: 100px 58px;
+//            }
         }
 
     //Header stub
@@ -472,155 +472,177 @@
 /* /Project
 ---------------------------------------------------------------------------------- */
 
-/* Mobile version
--------------------------------------------------- */
-/* 990px */
-@media @media-small {
+.pro { //Mob version only for promo
 
-  .source_col-main {
-    padding-left: 0;
-    padding-right: 0;
-    }
+    /* Mobile version
+    -------------------------------------------------- */
+    /* 990px */
+    @media @media-small {
 
-    .source_header {
-      margin-right: 0;
-      margin-left: 0;
-      width: 100%;
-      min-width: 100%;
-      }
-
-      .source_header_nav_i {
-        margin-left: 10px;
+      .source_col-main {
+        padding-left: 0;
+        padding-right: 0;
         }
 
-  .source_container {
-    width: 100%;
-    min-width: 320px;
-    padding: 50px 15px 270px;
-    }
-
-  .pro_fork {
-    top: 42px;
-    left: 15px;
-    width: 70px;
-    height: 70px;
-
-    background: url("/user/i/promo/github_flag2.png") no-repeat;
-
-    -webkit-transform: scale(.8);
-    -moz-transform: scale(.8);
-    -ms-transform: scale(.8);
-    -o-transform: scale(.8);
-    transform: scale(.8);
-    }
-
-  .pro_features {
-    padding: 15px 0 25px;
-    }
-
-      .pro_title_main-tx {
-        font-size: 57.4px;
+        .source_header {
+          margin-right: 0;
+          margin-left: 0;
+          width: 100%;
+          min-width: 100%;
           }
 
-      .pro_title_status {
-        font-size: 8.4px;
-        }
-
-      .pro_slogan {
-        font-size: 21px;
-        }
-
-      .pro_h2 {
-        font-size: 36.4px;
-        margin: 0;
-        }
-
-      .pro_descr {
-        width: 90%;
-        font-size: 14px;
-        }
-
-      .pro_download {
-        margin-top: 4%;
-        }
-
-      .pro_features-list_i {
-        width: 360px;
-        padding-bottom: 3%;
-        }
-
-        .pro_features-list_tx {
-          font-size: 14px;
-          }
-
-      .pro_how-list_i {
-        width: 360px;
-        margin-bottom: 60px;
-        }
-
-      .source_footer {
-        padding: 10px 0;
-        }
-
-        .source_footer .source_col-main {
-          font-size: 0;
-          padding: 0 10px;
-          }
-
-          .source_ul {
-            font-size: 12px;
+          .source_header_nav_i {
+            margin-left: 10px;
             }
 
-            .source_col {
-              padding-left: 0;
-              padding-right: 0;
+            .source_search { display: none;}
 
-              &:first-child {
-                padding: 0;
+      .source_container {
+        width: 100%;
+        min-width: 320px;
+        padding: 50px 15px 270px;
+        }
+
+      .pro_fork {
+        top: 42px;
+        left: 15px;
+        width: 70px;
+        height: 70px;
+
+        background: url("/user/i/promo/github_flag2.png") no-repeat;
+
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+        transform: scale(.8);
+        }
+
+      .pro_features {
+        padding: 15px 0 25px;
+        }
+
+          .pro_title_main-tx {
+            font-size: 57.4px;
+              }
+
+          .pro_title_status {
+            font-size: 8.4px;
+            }
+
+          .pro_slogan {
+            font-size: 21px;
+            }
+
+          .pro_h2 {
+            font-size: 36.4px;
+            }
+
+          .pro_descr {
+            width: 90%;
+            font-size: 14px;
+            }
+
+          .pro_download {
+            margin-top: 4%;
+            }
+
+          .pro_features-list_i {
+            width: 100%;
+            max-width: 360px;
+            padding-bottom: 3%;
+            }
+
+            .pro_features-list_tx {
+              font-size: 14px;
+              }
+
+          .pro_how-list_i {
+            width: 100%;
+            max-width: 360px;
+            margin-bottom: 60px;
+            }
+
+          .source_footer {
+            padding: 10px 0;
+            }
+
+            .source_footer .source_col-main {
+              font-size: 0;
+              padding: 0 10px;
+              }
+
+              .source_ul {
+                font-size: 12px;
                 }
-              }
 
-            .pro_header-soc {
-              display: block;
-              position: static;
-              margin-top: 10px;
-              }
+                .source_col {
+                  padding-left: 0;
+                  padding-right: 0;
 
-            .pro_how_more {
-              margin-top: 0;
-              }
+                  &:first-child {
+                    padding: 0;
+                    }
+
+                  &__23 {
+                    width: auto;
+                    }
+                  }
+
+                .pro_header-soc {
+                  display: block;
+                  position: static;
+                  margin-top: 10px;
+                  }
+
+                .pro_how_more {
+                  margin-top: 0;
+                  }
 
 
-  }
-/* 360px */
-@media @media-nano {
-
-    .source_container {
-      padding-left: 15px;
-      padding-right: 15px;
       }
+    /* 360px */
+    @media @media-nano {
 
-        .source_search { display: none;}
-
-        .pro_features-list_i {
-          width: 320px;
+        .source_container {
+          padding-left: 15px;
+          padding-right: 15px;
+          padding-bottom: 0;
           }
 
-        .pro_how-list_i {
-          width: 320px;
-          margin-bottom: 40px;
-          }
+            .pro_how-list_i {
+              margin-bottom: 40px;
+              }
 
-        .pro_fork {
-          top: 37px;
-          left:  5px;
-          -webkit-transform: scale(.65);
-          -moz-transform: scale(.65);
-          -ms-transform: scale(.65);
-          -o-transform: scale(.65);
-          transform: scale(.65);
-          }
-  }
+            .pro_fork {
+              top: 37px;
+              left:  5px;
+              -webkit-transform: scale(.65);
+              -moz-transform: scale(.65);
+              -ms-transform: scale(.65);
+              -o-transform: scale(.65);
+              transform: scale(.65);
+              }
+
+        .pro_how-list_ic.__spec {
+            width: 200px;
+            }
+
+        .source_footer {
+            position: relative;
+            margin: 0 -15px;
+            text-align: center;
+
+            .source_col-main {
+                padding: 0 20px;
+                }
+
+            .source_col {
+                width: 100%;
+                }
+            }
+      }
+}
 
 
 /* /Mobile version */
