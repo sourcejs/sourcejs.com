@@ -386,6 +386,10 @@
   .source_header {
     margin-right: 0;
     margin-left: 0;
+    width: 100%;
+  }
+  .source_header_nav_i {
+    margin-left: 10px;
   }
   .source_container {
     width: 100%;
@@ -469,6 +473,9 @@
   .source_container {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .source_search {
+    display: none;
   }
   .pro_features-list_i {
     width: 320px;
