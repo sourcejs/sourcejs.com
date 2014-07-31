@@ -1,0 +1,118 @@
+<meta name="description" content="The most powerful tool for documenting web interfaces<br> and building productive team work.">
+<script>
+    define('modules/inlineOptions', {
+        modulesOptions : {
+            search : {
+                autoFocusOnNavigationPage: false
+            }
+        }
+    })
+</script>
+
+<div class="pro_header">
+    <a href="https://github.com/sourcejs/Source" class="pro_fork" title="Fork me on Github"></a>
+
+    <div class="source_col-main">
+        <div class="pro_title">
+            <h1 class="pro_title_main-tx">Source</h1>
+        </div>
+        <div class="pro_slogan">
+            Living Style Guide on Steroids
+        </div>
+
+        <div class="pro_descr">
+            The most powerful tool for documenting web components<br> and building productive team work.
+        </div>
+
+        <div class="pro_download">
+            <a href="https://github.com/sourcejs/Source/archive/master.zip" class="pro_button">Download version 0.4.0-beta</a>
+
+            <div class="pro_download_ft">
+                <a href="/docs/base" class="pro_download_a">Installation and usage instructions</a> <a href="http://github.com/sourcejs/Source/releases" class="pro_download_a">Changelog</a> <a href="http://github.com/sourcejs/Source#source---front-end-documentation-engine" class="pro_download_a">About project</a>
+            </div>
+        </div>
+
+        <div class="pro_header-soc" id="pro_header-soc">
+            <div class="pro_header-soc_i pro_header-soc_tw">
+                <a href="https://twitter.com/sourceJS" class="twitter-follow-button" data-show-count="false">Follow @sourceJS</a>
+            </div>
+        </div>
+        <script> setTimeout(function(){document.getElementById('pro_header-soc').className='pro_header-soc __loaded';}, 1) </script>
+    </div>
+</div>
+
+<div class="pro_features">
+    <div class="source_col-main">
+        <h2 class="pro_h2">Features</h2>
+
+        <p class="pro_features_main">
+            Source powered workflow allows developers to <strong>code new&nbsp;components directly&nbsp;in&nbsp;the&nbsp;Style&nbsp;Guide.</strong> Source combines Front-end building with documentation process, making it a powerful tool for productive development and teamwork.
+        </p>
+
+        <ul class="pro_features-list">
+            <li class="pro_features-list_i">
+                <div class="pro_features-list_img">
+                    <div class="pro_features-list_ic __tools"></div>
+                </div>
+                <div class="pro_features-list_tx">
+                   Essential Technology Pack:<br>NodeJS, Grunt, RequireJS, LESS
+                </div>
+            </li><li class="pro_features-list_i">
+                <div class="pro_features-list_img">
+                    <div class="pro_features-list_ic __navi"></div>
+                </div>
+                <div class="pro_features-list_tx">
+                    Convenient navigation with fast document search
+                </div>
+            </li><li class="pro_features-list_i">
+                <div class="pro_features-list_img">
+                    <div class="pro_features-list_ic __spec"></div>
+                </div>
+                <div class="pro_features-list_tx">
+                    Feature loaded documentation pages for comfortable and effective team work
+                </div>
+            </li><li class="pro_features-list_i">
+                <div class="pro_features-list_img">
+                    <div class="pro_features-list_ic __art"></div>
+                </div>
+                <div class="pro_features-list_tx">
+                    Interactive style guides<br> for designers
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="pro_how source_col-main">
+    <h2 class="pro_h2">How it works</h2>
+
+    <ul class="pro_how-list">
+        <li class="pro_how-list_i">
+            <div class="pro_how-list_img">
+                <div class="pro_how-list_ic __files"></div>
+            </div>
+            <div class="pro_how-list_tx">
+               Manage your <a href="/docs/base/index.html#2!" class="source_a_o">source files</a> <strong>just like you would in any modern web project,</strong> separating view blocks
+in different folders with all necessary technologies (html, css, js).
+            </div>
+        </li><li class="pro_how-list_i">
+            <div class="pro_how-list_img">
+                <div class="pro_how-list_ic __node"></div>
+            </div>
+            <div class="pro_how-list_tx">
+               <strong>Work with familiar environment in .html files</strong> and Source will do the rest with NodeJS and client JavaScript.
+            </div>
+        </li><li class="pro_how-list_i">
+            <div class="pro_how-list_img">
+                <div class="pro_how-list_ic __spec"></div>
+            </div>
+            <div class="pro_how-list_tx">
+               <strong>Get feature loaded <a href="/docs/spec" class="source_a_o">documentation pages</a> and tools directly in your favorite browser for comfortable team work.</strong>
+            </div>
+        </li>
+    </ul>
+
+    <div class="pro_how_more">
+        Learn more about <span class="pro_how_more_hl">Source</span> at <a href="/docs" class="source_a_o">documentation</a> section.
+    </div>
+</div>

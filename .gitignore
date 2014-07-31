@@ -1,16 +1,10 @@
-.*
+*.idea
 *.iml
+*.DS_Store
 node_modules
 
 # Generated files
 /data/pages_tree.json
-
-# Source engine
-/data/docs
-/core
-/docs
-/test
-/plugins
 
 # Your settings
 # ...
