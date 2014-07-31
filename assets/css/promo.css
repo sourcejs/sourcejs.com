@@ -8,7 +8,7 @@
 .pro {
   min-width: 320px;
 }
-.source_main {
+.pro .source_main {
   max-width: 100%;
 }
 /* /Reset

@@ -10,14 +10,14 @@ module.exports = function(grunt) {
                     paths: ["assets/css"]
                 },
                 files: {
-                    "assets/css/promo.css": "assets/css/promo.less"
+                    "assets/css/promo.css": "assets/css/less/promo.less"
                 }
             }
         },
 
         watch: {
             less: {
-                files: ['assets/css/*.less'],
+                files: ['assets/css/less/*.less'],
                 tasks: ['less'],
                 options: {
                     nospawn: true

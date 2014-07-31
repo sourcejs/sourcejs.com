@@ -7,4 +7,4 @@ node_modules
 /data/pages_tree.json
 
 # Your settings
-# ...
+assets/css/promo.css
