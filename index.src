@@ -1,14 +1,3 @@
-<meta name="description" content="The most powerful tool for documenting web interfaces<br> and building productive team work.">
-<script>
-    define('modules/inlineOptions', {
-        modulesOptions : {
-            search : {
-                autoFocusOnNavigationPage: false
-            }
-        }
-    })
-</script>
-
 <div class="pro_header">
     <a href="https://github.com/sourcejs/Source" class="pro_fork" title="Fork me on Github"></a>
 

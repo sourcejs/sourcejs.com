@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if IE 9]>         <html class="ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="source-page-role" content="navigation">
+    <meta name="description" content="The most powerful tool for documenting web interfaces<br> and building productive team work.">
+    <title><%= title %></title>
+
+    <!-- Source default resources -->
+        <link href="/source/assets/css/source.css" rel="stylesheet">
+        <script data-main="enter-the-source" src="/source/assets/js/require.bundle.js"></script>
+    <!-- /Source default resources -->
+
+    <script>
+        define('modules/inlineOptions', {
+            modulesOptions : {
+                search : {
+                    autoFocusOnNavigationPage: false
+                }
+            }
+        })
+    </script>
+</head>
+<body class="pro">
+    <div class="source_container">
+        <%- header %>
+        <div class="source_main source_col-main" role="main">
+            <%- content %>
+        </div>
+        <%- footer %>
+    </div>
+</body>
+</html>
