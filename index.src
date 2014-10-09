@@ -14,7 +14,7 @@
         </div>
 
         <div class="pro_download">
-            <a href="/docs/base/#install!" class="pro_button">Install 0.4.0-beta</a>
+            <a href="/docs/base/#install!" class="pro_button">Install 0.4.0-rc</a>
 
             <div class="pro_download_ft">
                 <a href="/docs/base/#examples!" class="pro_download_a">Examples</a> <a href="http://github.com/sourcejs/Source/releases" class="pro_download_a">Changelog</a> <a href="http://github.com/sourcejs/Source#source---front-end-documentation-engine" class="pro_download_a">About project</a> <a href="http://tohtml.it/post/93482335118/sourcejs" class="pro_download_a">Video review (ru)</a>
