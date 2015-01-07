@@ -13,10 +13,9 @@ module.exports = {
         },
 
         modulesOptions : {
-            // Modules options example
-            // innerNavigation : {
-            //   hashSymb: '!'
-            //   }
+            search: {
+                autoFocusOnNavigationPage: false
+            }
         },
 
         // Plugins
