@@ -10,14 +10,14 @@
         </div>
 
         <div class="pro_descr">
-            The most advanced tool for documenting, testing and managing UI components achieving productive team work.
+            The most advanced tool for documenting, testing and managing UI&nbsp;components achieving productive team work
         </div>
 
         <div class="pro_download">
-            <a href="/docs/base/#install!" class="pro_button">Install 0.4.0 stable</a>
+            <a href="/docs/base/#install!" class="pro_button">Install 0.4.0 Stable</a>
 
             <div class="pro_download_ft">
-                <a href="/docs/base/#examples!" class="pro_download_a">Examples</a> <a href="http://github.com/sourcejs/Source/releases" class="pro_download_a">Changelog</a> <a href="http://github.com/sourcejs/Source#source---front-end-documentation-engine" class="pro_download_a">About the project</a> <a href="http://tohtml.it/post/93482335118/sourcejs" class="pro_download_a">Video review</a>
+                <a href="/docs/base/#examples!" class="pro_download_a">Examples</a> <a href="http://github.com/sourcejs/Source/releases" class="pro_download_a">Changelog</a> <a href="http://github.com/sourcejs/Source#source---front-end-documentation-engine" class="pro_download_a">About the project</a> <a href="http://youtu.be/ukFeZnJjrLs?list=PL20zJcC2wnX7RY1CDrKLhSvYxEe6jtMbB" class="pro_download_a">Video review</a>
             </div>
         </div>
 
@@ -44,16 +44,15 @@
                     <div class="pro_features-list_ic __tools"></div>
                 </div>
                 <div class="pro_features-list_tx">
-                   Essential Technology Pack:<br>NodeJS, PhantomJS, EJS.<br>
-                    Flexible, unopinionated core.
+                   Essential Technology Pack:<br>NodeJS, PhantomJS, EJS;<br>
+                    Flexible, unopinionated core
                 </div>
             </li><li class="pro_features-list_i">
                 <div class="pro_features-list_img">
                     <div class="pro_features-list_ic __navi"></div>
                 </div>
                 <div class="pro_features-list_tx">
-                    Convenient navigation with fast<br> search
-                    through your<br> components library
+                    Convenient navigation through your components library
                 </div>
             </li><li class="pro_features-list_i">
                 <div class="pro_features-list_img">
@@ -83,8 +82,7 @@
                 <div class="pro_how-list_ic __files"></div>
             </div>
             <div class="pro_how-list_tx">
-               Manage your Spec source files <strong>just like you would in any modern web project,</strong> separating components
-in different folders with all necessary technologies (templates, css, js).
+                <strong>In SourceJS you keep only description of components</strong> with powerful navigation options. Treat SourceJS as companion app.
             </div>
         </li><li class="pro_how-list_i">
             <div class="pro_how-list_img">
@@ -104,6 +102,6 @@ in different folders with all necessary technologies (templates, css, js).
     </ul>
 
     <div class="pro_how_more">
-        Learn more about <span class="pro_how_more_hl">Source</span> at <a href="/docs" class="source_a_o">documentation</a> section.
+        Learn more about <span class="pro_how_more_hl">Source</span> at <a href="/docs" class="source_a_o">documentation</a> section
     </div>
 </div>
