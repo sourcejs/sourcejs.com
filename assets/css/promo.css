@@ -180,6 +180,36 @@
   }
 }
 /* /Header */
+/* Video
+-------------------------------------------------- */
+.pro_video {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.pro_video_iframe {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+@media all and (min-width: 630px) {
+  .pro_video_iframe {
+    padding-bottom: 0;
+    height: 450px;
+  }
+}
+.pro_video_iframe_cnt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* /Video */
 /* Features
 -------------------------------------------------- */
 .pro_features {
