@@ -17,7 +17,7 @@
             <a href="/docs/base/#install!" class="pro_button">Install 0.4.0 Stable</a>
 
             <div class="pro_download_ft">
-                <a href="/docs/base/#examples!" class="pro_download_a">Examples</a> <a href="http://github.com/sourcejs/Source/releases" class="pro_download_a">Changelog</a> <a href="http://github.com/sourcejs/Source#source---front-end-documentation-engine" class="pro_download_a">About the project</a> <a href="http://youtu.be/ukFeZnJjrLs?list=PL20zJcC2wnX7RY1CDrKLhSvYxEe6jtMbB" class="pro_download_a">Video review</a>
+                <a href="http://github.com/sourcejs/Source#source---front-end-documentation-engine" class="pro_download_a">About the project</a> <a href="/docs/base/#examples!" class="pro_download_a">Examples</a> <a href="http://github.com/sourcejs/Source/releases" class="pro_download_a">Changelog</a>
             </div>
         </div>
 
@@ -27,6 +27,14 @@
             </div>
         </div>
         <script> setTimeout(function(){document.getElementById('pro_header-soc').className='pro_header-soc __loaded';}, 1) </script>
+    </div>
+</div>
+
+<div class="pro_video">
+    <div class="source_col-main">
+        <div class="pro_video_iframe">
+            <iframe class="pro_video_iframe_cnt" src="//www.youtube.com/embed/bcSEZIaXDkU?list=PLS1YQ-Y8Utrt0FDspjk3fJKP7hftVTk7X" frameborder="0" allowfullscreen></iframe>
+        </div>
     </div>
 </div>
 
