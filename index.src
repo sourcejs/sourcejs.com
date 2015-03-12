@@ -6,7 +6,7 @@
             <h1 class="pro_title_main-tx">Source</h1>
         </div>
         <div class="pro_slogan">
-            Living Style Guide on Steroids
+            Living Style Guide Platform
         </div>
 
         <div class="pro_descr">
@@ -14,7 +14,7 @@
         </div>
 
         <div class="pro_download">
-            <a href="/docs/base/#install!" class="pro_button">Install 0.4.1 Stable</a>
+            <a href="/docs/base/#install!" class="pro_button">Quick Start</a>
 
             <div class="pro_download_ft">
                 <a href="http://github.com/sourcejs/Source#source---front-end-documentation-engine" class="pro_download_a">About the project</a> <a href="/docs/base/#examples!" class="pro_download_a">Examples</a> <a href="http://github.com/sourcejs/Source/releases" class="pro_download_a">Changelog</a>
