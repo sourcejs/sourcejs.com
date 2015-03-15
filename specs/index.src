@@ -1,0 +1,10 @@
+<div class="source_subhead">
+    <h1>Libraries</h1>
+</div>
+
+<div class="source_catalog" data-nav="/specs" data-tag="without-tag">
+    <h2>Nested Component Libraries</h2>
+    <ul class="source_catalog_list">
+        <img src="/source/assets/i/process.gif" alt="Loading..."/>
+    </ul>
+</div>
