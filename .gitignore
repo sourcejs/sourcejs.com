@@ -8,3 +8,6 @@ node_modules
 
 # Your settings
 assets/css/promo.css
+
+# Nested libraries
+/specs/examples
