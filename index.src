@@ -14,10 +14,10 @@
         </div>
 
         <div class="pro_download">
-            <a href="/docs/base/#install!" class="pro_button">Quick Start</a>
+            <a href="/docs/base/#install" class="pro_button">Quick Start</a>
 
             <div class="pro_download_ft">
-                <a href="http://github.com/sourcejs/Source#source---front-end-documentation-engine" class="pro_download_a">About the project</a> <a href="/docs/base/#examples!" class="pro_download_a">Examples</a> <a href="http://github.com/sourcejs/Source/releases" class="pro_download_a">Changelog</a>
+                <a href="http://github.com/sourcejs/Source#source---front-end-documentation-engine" class="pro_download_a">About the project</a> <a href="/docs/base/#examples" class="pro_download_a">Examples</a> <a href="http://github.com/sourcejs/Source/releases" class="pro_download_a">Changelog</a>
             </div>
         </div>
 
@@ -33,7 +33,7 @@
 <div class="pro_video">
     <div class="source_col-main">
         <div class="pro_video_iframe">
-            <iframe class="pro_video_iframe_cnt" src="//www.youtube.com/embed/y4KHmX8vCc0?showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <iframe class="pro_video_iframe_cnt" src="http://www.youtube.com/embed/y4KHmX8vCc0?showinfo=0" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 </div>
@@ -43,7 +43,8 @@
         <h2 class="pro_h2">Features</h2>
 
         <p class="pro_features_main">
-            Source powered workflow allows developers to <strong>code new&nbsp;components directly&nbsp;in&nbsp;the&nbsp;Style&nbsp;Guide.</strong> Source combines Front-end building with documentation process, making it a powerful tool for productive development and teamwork.
+            SourceJS is a dynamic Style Guide platform. It allows to combine multiple project UI&nbsp;component&nbsp;libraries, based on any technologies.<br><br>
+            Following Living Style Guide driven development,<br> SourceJS allows to <strong>code new&nbsp;components directly&nbsp;in&nbsp;the&nbsp;Style&nbsp;Guide.</strong>
         </p>
 
         <ul class="pro_features-list">
@@ -52,29 +53,29 @@
                     <div class="pro_features-list_ic __tools"></div>
                 </div>
                 <div class="pro_features-list_tx">
-                   Essential Technology Pack:<br>NodeJS, PhantomJS, EJS;<br>
-                    Flexible, unopinionated core
+                    Modular, unopinionated core.<br>
+                    Easy to integrate aside existing codebase.
                 </div>
             </li><li class="pro_features-list_i">
                 <div class="pro_features-list_img">
                     <div class="pro_features-list_ic __navi"></div>
                 </div>
                 <div class="pro_features-list_tx">
-                    Convenient navigation through your components library
+                    Convenient <a class="source_a_hl" href="/docs/data-nav/">navigation</a> through your components library.
                 </div>
             </li><li class="pro_features-list_i">
                 <div class="pro_features-list_img">
                     <div class="pro_features-list_ic __spec"></div>
                 </div>
                 <div class="pro_features-list_tx">
-                    Feature loaded <a class="source_a_hl" href="/docs/spec/">documentation pages</a> for comfortable and<br> effective team work
+                    Feature loaded <a class="source_a_hl" href="/docs/spec/">documentation pages.</a> Chose any doc syntax you want, or combine <a class="source_a_hl" href="/specs/examples/">them all.</a>
                 </div>
             </li><li class="pro_features-list_i">
                 <div class="pro_features-list_img">
                     <div class="pro_features-list_ic __art"></div>
                 </div>
                 <div class="pro_features-list_tx">
-                    Interactive style guides<br> for designers<br> and rich <a class="source_a_hl" href="/docs/base/#plugins">plugin system</a>
+                    Interactive style guides<br> for web designers<br> and rich <a class="source_a_hl" href="/docs/base/#plugins">plugin system.</a>
                 </div>
             </li>
         </ul>
@@ -90,26 +91,26 @@
                 <div class="pro_how-list_ic __files"></div>
             </div>
             <div class="pro_how-list_tx">
-                <strong>In SourceJS you keep only description of components</strong> with powerful navigation options. Treat SourceJS as companion app.
+                Link your codebase to SourceJS Specs catalog.<br> Prepare separate folders for each component, containing all technologies (template, styles, JS).
             </div>
         </li><li class="pro_how-list_i">
             <div class="pro_how-list_img">
                 <div class="pro_how-list_ic __node"></div>
             </div>
             <div class="pro_how-list_tx">
-               <strong>Work with familiar environment in .html, .src, .haml or other technologies </strong> and Source will do the rest with NodeJS APIs and client JavaScript enhancements.
+               Describe your components using special .src templates, Markdown, DSS, Jade or other technologies.<br> SourceJS will parse your catalogs and component definitions.
             </div>
         </li><li class="pro_how-list_i">
             <div class="pro_how-list_img">
                 <div class="pro_how-list_ic __spec"></div>
             </div>
             <div class="pro_how-list_tx">
-               <strong>Get feature loaded <a href="/docs/spec" class="source_a_o">documentation pages</a> and tools directly in your favorite browser for comfortable team work.</strong>
+               <strong>Get feature loaded <a href="/docs/spec" class="source_a_o">documentation pages</a> directly in your favorite browser. Extend and customize pages with <a href="/docs/base/#plugins" class="source_a_o">custom plugins</a> and tools.</strong>
             </div>
         </li>
     </ul>
 
     <div class="pro_how_more">
-        Learn more about <span class="pro_how_more_hl">Source</span> at <a href="/docs" class="source_a_o">documentation</a> section
+        Follow simple <a href="/docs/base/#install" class="source_a_o">setup instructions</a> and start organizing your UI component library.
     </div>
 </div>
