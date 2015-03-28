@@ -1,0 +1,6 @@
+[submodule "specs/example-bootstrap-bundle"]
+	path = specs/example-bootstrap-bundle
+	url = https://github.com/sourcejs/example-bootstrap-bundle.git
+[submodule "specs/example-specs-showcase"]
+	path = specs/example-specs-showcase
+	url = https://github.com/sourcejs/example-specs-showcase.git

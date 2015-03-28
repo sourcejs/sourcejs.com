@@ -1,10 +1,13 @@
 <div class="source_subhead">
-    <h1>Libraries</h1>
+    <h1>Example Bundles</h1>
 </div>
 
-<div class="source_catalog" data-nav="/specs" data-tag="without-tag">
-    <h2>Nested Component Libraries</h2>
-    <ul class="source_catalog_list">
-        <img src="/source/assets/i/process.gif" alt="Loading..."/>
-    </ul>
+<div class="source_catalog" data-nav="/specs/example-specs-showcase">
+    <h2><a href="/specs/example-specs-showcase">Spec Page Showcase</a></h2>
+    <p>Showcase of Spec page syntax variations, including various plugins.</p>
+</div>
+
+<div class="source_catalog" data-nav="/specs/example-bootstrap-bundle">
+    <h2><a href="/specs/example-bootstrap-bundle">Bootstrap Bundle</a></h2>
+    <p>SourceJS flavoured Bootstrap documentation example. With re-structured component folders.</p>
 </div>
