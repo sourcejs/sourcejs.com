@@ -1,3 +1,5 @@
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/sourcejs/Source)
+
 Initialized with [SourceJS](http://sourcejs.com) - Living Style Guide Engine and Maintenance Environment for Front-end Components.
 
 ___
