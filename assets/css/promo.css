@@ -70,6 +70,7 @@
   *zoom: 1;
   width: 688px;
   margin-top: 19px;
+  padding: 0 10px;
   font-family: 'Museo Sans', Arial;
   font-size: 20px;
   line-height: 1.4;
@@ -77,6 +78,7 @@
 }
 .pro_download {
   margin-top: 40px;
+  padding: 0 10px;
 }
 .pro_download_ft {
   margin-top: 22px;
