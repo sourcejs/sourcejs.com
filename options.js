@@ -3,6 +3,9 @@
 module.exports = {
     // Restart app after changing core options
     core: {
+        common: {
+            specFiles: ['index.src', 'index.jsx', 'index.jade', 'index.haml', 'index.md', 'readme.md', 'README.md', 'index.html']
+        }
     },
 
     // Run `grunt` after changing assets options. Or use`grunt watch-all`.
