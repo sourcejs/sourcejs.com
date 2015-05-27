@@ -3,8 +3,5 @@
 *.DS_Store
 node_modules
 
-# Generated files
-/data/pages_tree.json
-
 # Your settings
 assets/css/promo.css
