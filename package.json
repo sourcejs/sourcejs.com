@@ -9,6 +9,6 @@
     "load-grunt-tasks": "~0.6.0",
     "sourcejs-contrib-dss": "^0.1.0",
     "sourcejs-jade": "0.0.2",
-    "sourcejs-react": "0.0.3"
+    "sourcejs-react": "^1.0.0"
   }
 }
