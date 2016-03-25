@@ -7,6 +7,9 @@
 ---------------------------------------------------------------------------------- */
 .pro {
   min-width: 320px;
+  background: linear-gradient(to bottom, #4a8ab7 0%, #61a2cc 100%);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
 }
 .pro .source_main {
   max-width: 100%;
@@ -30,7 +33,7 @@
   position: absolute;
   z-index: 1;
   left: 0;
-  top: 50px;
+  top: 85px;
   width: 149px;
   height: 149px;
   background-image: url(/assets/i/promo/github.png);
@@ -97,17 +100,20 @@
   display: inline-block;
   *display: inline;
   *zoom: 1;
-  border-radius: 10px;
+  border-radius: 4px;
   padding: 14px 21px 14px;
-  background: #78d81f url(/assets/i/promo/btn_grad.png) repeat-x 0 100%;
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
   font-family: 'Museo Sans', Arial;
   font-size: 22px;
   line-height: 1;
   color: #fff;
   text-decoration: none;
+  box-shadow: 0 0 0 0 #92bbd5;
+  transition: 0.3s box-shadow;
 }
 .pro_button:hover {
-  box-shadow: inset 0 0 10px 2px #4FA300;
+  box-shadow: 0 0 0 4px #92bbd5;
   color: #FFF;
   text-decoration: none;
 }
@@ -135,6 +141,10 @@
 /* /Hamburger menu */
 /* /Base
 ---------------------------------------------------------------------------------- */
+.pro .source_main {
+  padding: 0;
+  margin-bottom: 0;
+}
 /* Project
 ---------------------------------------------------------------------------------- */
 /* Header
@@ -143,29 +153,18 @@
   overflow: hidden;
   position: relative;
   margin: -85px -25px 0 -25px;
-  padding: 75px 0 25px;
-  background-color: #4f8fbb;
+  padding: 110px 0 25px;
   text-align: center;
+  background-image: url(/assets/i/promo/pattern.png);
+  background-repeat: repeat;
+  background-size: 40px;
+  background-attachment: fixed;
+}
+.pro_header .pro_header_content {
+  padding: 40px 0;
 }
 .pro_header .source_col-main {
   position: relative;
-}
-.pro_header:before {
-  position: absolute;
-  content: '';
-  top: 50px;
-  left: 50%;
-  width: 1200px;
-  margin-left: -600px;
-  height: 100%;
-  background-image: url(/assets/i/promo/header_bg.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
-  .pro_header:before {
-    background-image: url(/assets/i/promo/header_bg_x2.png);
-  }
 }
 .pro_header:after {
   content: '';
@@ -173,14 +172,35 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 50px;
+  height: 85px;
   background-color: #333;
+}
+.pro_header_topright {
+  position: absolute;
+  top: 110px;
+  right: 25px;
+}
+@media all and (max-width: 990px) {
+  .pro_header_topright {
+    position: relative;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    text-align: center;
+  }
+}
+.pro_header_topright > * {
+  margin-bottom: 10px;
+  float: right;
+  clear: right;
+}
+@media all and (max-width: 990px) {
+  .pro_header_topright > * {
+    float: none;
+  }
 }
 .pro_header-soc {
   opacity: 0;
-  position: absolute;
-  top: 0;
-  right: 25px;
 }
 .pro_header-soc.__loaded {
   opacity: 1;
@@ -207,24 +227,40 @@
 /* Video
 -------------------------------------------------- */
 .pro_video {
+  margin: 0 -25px 0 -25px;
+  padding: 30px 0 50px;
+  text-align: center;
+  background-color: #333;
+  background-image: url(/assets/i/promo/pattern.png);
+  background-repeat: repeat;
+  background-size: 40px;
+  background-attachment: fixed;
+}
+@media all and (max-width: 990px) {
+  .pro_video {
+    padding: 0;
+  }
+}
+.pro_video_container {
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
   text-align: center;
+}
+@media all and (max-width: 990px) {
+  .pro_video_container {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 }
 .pro_video_iframe {
   position: relative;
-  max-width: 800px;
   margin: 0 auto;
   padding-bottom: 56.25%;
   /* 16:9 */
-  padding-top: 25px;
-  height: 0;
-}
-@media all and (min-width: 630px) {
-  .pro_video_iframe {
-    padding-bottom: 0;
-    height: 450px;
-  }
+  height: 0px;
 }
 .pro_video_iframe_cnt {
   position: absolute;
@@ -239,8 +275,8 @@
 .pro_features {
   margin: 0 -25px 0 -25px;
   padding: 30px 0 50px;
-  background-color: #ececec;
   text-align: center;
+  background: #fff;
 }
 .pro_features_main {
   font-size: 21px;
@@ -326,8 +362,10 @@
 /* How it works
 -------------------------------------------------- */
 .pro_how {
-  padding-top: 30px;
+  margin: 0 -25px 0 -25px;
+  padding: 30px 0 50px;
   text-align: center;
+  background: #fff;
 }
 .pro_how .pro_h2 {
   margin-bottom: 50px;
