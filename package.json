@@ -5,8 +5,7 @@
 	"scripts": {
 		"build-local": "grunt default",
 		"build-source": "cd ./node_modules/sourcejs && npm run build",
-    "start": "node ./node_modules/sourcejs/app.js",
-    "postinstall": "node pre-build-production.js"
+    "start": "npm run build-local && npm run build-source && node ./node_modules/sourcejs/app.js"
   },
   "dependencies": {
     "grunt": "~0.4.5",
