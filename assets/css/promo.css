@@ -249,7 +249,7 @@
   max-width: 800px;
   text-align: center;
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 850px) {
   .pro_video_container {
     margin-left: 25px;
     margin-right: 25px;
