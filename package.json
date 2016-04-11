@@ -2,17 +2,11 @@
   "author": "SourceJS",
   "version": "0.1.0",
   "description": "Sourcejs.com project website",
-	"scripts": {
-		"build-local": "grunt default",
-		"build-source": "cd ./node_modules/sourcejs && npm run build",
-    "start": "npm run build-local && npm run build-source && node ./node_modules/sourcejs/app.js"
-  },
   "dependencies": {
     "grunt": "~0.4.5",
     "grunt-contrib-less": "~0.11.4",
     "grunt-contrib-watch": "~0.6.1",
     "load-grunt-tasks": "~0.6.0",
-		"sourcejs": "^0.6.0-nightly.5",
     "sourcejs-contrib-dss": "^0.1.0",
     "sourcejs-jade": "0.0.2",
     "sourcejs-react": "^1.0.0"
