@@ -2,6 +2,9 @@
   "author": "SourceJS",
   "version": "0.1.0",
   "description": "Sourcejs.com project website",
+  "scripts": {
+    "build": "grunt"
+  },
   "dependencies": {
     "grunt": "~1.0.1",
     "grunt-contrib-less": "~1.4.0",
@@ -10,5 +13,8 @@
     "sourcejs-contrib-dss": "^0.1.0",
     "sourcejs-jade": "0.1.0",
     "sourcejs-react": "^4.0.0"
+  },
+  "devDependencies": {
+    "grunt-cli": "^1.2.0"
   }
 }
